@@ -1,0 +1,36 @@
+
+.gate-pass-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #007bff;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #1a1919;
+}
+
+p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #000000;
+}
+
+.qr-code-container {
+  margin-top: 20px;
+}

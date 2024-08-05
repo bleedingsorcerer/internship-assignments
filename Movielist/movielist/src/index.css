@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.navbar {
+  box-shadow: 0 4px 20px -2px gray;
+  background-color: #000; 
+}
+
+.navbar-text {
+  font-size: 30px;
+}
+
+.logo-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 30px; /* Adjust the max-width to reduce the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.card {
+  box-shadow: 0 4px 20px -2px red;
+  background-color: black;
+  border-radius: 5%;
+  margin: 10px 0; /* Add margin to avoid cards sticking together */
+}
+
+.movie-img {
+  border-radius: 5% 5% 0 0;
+  width: 100%;
+  height: 400px; /* Set a fixed height */
+  object-fit: cover;
+}
+
+.custom-button {
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.crazy{
+  object-position: bottom;
+}
+
+.damsel{
+  object-position: bottom;
+}
+.haunting {
+  object-position: top;
+}
+
+.pride {
+  object-position: top;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .card {
+    height: auto; /* Allow the card to adjust its height */
+  }
+
+  .movie-img {
+    height: 300px; /* Adjust image height for medium screens */
+  }
+
+  .navbar-text {
+    font-size: 25px; /* Adjust navbar text size */
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    height: auto;
+  }
+
+  .movie-img {
+    height: auto; /* Adjust image height for smaller screens */
+  }
+
+  .navbar-text {
+    font-size: 20px; /* Adjust navbar text size */
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: auto;
+  }
+
+  .movie-img {
+    height: auto; /* Adjust image height for tablets */
+  }
+
+  .navbar-text {
+    font-size: 18px; /* Adjust navbar text size */
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    height: auto;
+  }
+
+  .movie-img {
+    height: auto; /* Adjust image height for small devices */
+  }
+
+  .navbar-text {
+    font-size: 16px; /* Adjust navbar text size */
+  }
+
+  .custom-button {
+    font-size: 12px; /* Adjust button text size */
+  }
+}

@@ -1,0 +1,39 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #EEE;
+}
+
+.navbar{
+  box-shadow: 0 4px 20px -2px gray;
+}
+
+.navbar-text {
+  font-size: 30px;
+}
+
+.card{
+  height: 420px;
+}
+
+.movie-img {
+  width: auto;
+  height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the given dimensions */
+}
+
+
+
+@media(max-width:600px){
+  .card{
+      height: auto;
+      margin-top: 10px;
+      padding-bottom: 15px;
+    } 
+
+  .movie-img{
+    margin-top: 50px;
+    object-fit: contain;
+  }    
+
+}
